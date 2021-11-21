@@ -1,0 +1,29 @@
+.container {
+  position: relative;  
+  
+}
+
+.text {
+  position: absolute;
+  background: linear-gradient(to right, #0097ff, #006dff, #c500ff, #ff00c2, #ff5e00, #0097ff);
+  background-size: 400%;
+  font-size: 200px;  
+  font-family: 'Bebas Neue', Cursive;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: oscillate 10s linear infinite;
+  left: 10%;
+  top: 200px
+}
+
+@keyframes oscillate {
+  0%
+  {
+    background-position: 0%;
+  }
+
+  100%
+  {
+    background-position: 400%;
+  }
+}
