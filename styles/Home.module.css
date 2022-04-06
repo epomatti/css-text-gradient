@@ -1,13 +1,12 @@
 .container {
-  position: relative;  
-  
+  position: relative;
 }
 
 .text {
   position: absolute;
   background: linear-gradient(to right, #0097ff, #006dff, #c500ff, #ff00c2, #ff5e00, #0097ff);
   background-size: 400%;
-  font-size: 200px;  
+  font-size: 100px;
   font-family: 'Bebas Neue', Cursive;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -17,13 +16,11 @@
 }
 
 @keyframes oscillate {
-  0%
-  {
+  0% {
     background-position: 0%;
   }
 
-  100%
-  {
+  100% {
     background-position: 400%;
   }
 }

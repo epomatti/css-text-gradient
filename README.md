@@ -1,13 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Text Gradient Effects
 
-## Getting Started
+Colored text effects:
 
-First, run the development server:
+<img src=".docs/effects.gif" width=350>
 
-```bash
-npm run dev
-# or
+Running it with Next:
+
+```sh
+yarn install
 yarn dev
 ```
 
-From: https://www.youtube.com/watch?v=ANKNNKPJAMI
+[Reference material](https://www.youtube.com/watch?v=ANKNNKPJAMI)
